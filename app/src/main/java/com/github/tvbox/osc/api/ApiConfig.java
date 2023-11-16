@@ -5,6 +5,7 @@ import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Base64;
 
+import com.blankj.utilcode.util.LogUtils;
 import com.github.catvod.crawler.JarLoader;
 import com.github.catvod.crawler.JsLoader;
 import com.github.catvod.crawler.Spider;
@@ -165,6 +166,7 @@ public class ApiConfig {
         }
         System.out.println("API URL :" + configUrl);
         String configKey = TempKey;
+        String finalConfigUrl = configUrl;
         OkGo.<String>get(configUrl)
                 .headers("User-Agent", userAgent)
                 .headers("Accept", requestAccept)
@@ -189,7 +191,7 @@ public class ApiConfig {
                             }
                             callback.success();
                         } catch (Throwable th) {
-                            th.printStackTrace();
+                            LogUtils.w("解析配置失败", finalConfigUrl,th);
                             callback.error("解析配置失败");
                         }
                     }
@@ -203,7 +205,7 @@ public class ApiConfig {
                                 callback.success();
                                 return;
                             } catch (Throwable th) {
-                                th.printStackTrace();
+                                LogUtils.w("请求失败后,从本地解析配置失败",th);
                             }
                         }
                         callback.error("拉取配置失败\n" + (response.getException() != null ? response.getException().getMessage() : ""));

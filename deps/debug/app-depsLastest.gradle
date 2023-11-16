@@ -1,0 +1,192 @@
+//all deps have updates:
+dependencies {
+
+     implementation "androidx.activity:activity:1.6.0" // --> 1.8.1
+ //  url : https://dl.google.com/dl/android/maven2/androidx/activity/activity/maven-metadata.xml
+     implementation "androidx.annotation:annotation:1.6.0" // --> 1.7.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/maven-metadata.xml
+     implementation "androidx.annotation:annotation-experimental:1.3.0" // --> 1.4.0-dev01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-experimental/maven-metadata.xml
+     implementation "androidx.annotation:annotation-jvm:1.6.0" // --> 1.7.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/maven-metadata.xml
+     implementation "androidx.appcompat:appcompat:1.6.1" // --> 1.7.0-alpha03
+ //  url : https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/maven-metadata.xml
+     implementation "androidx.appcompat:appcompat-resources:1.6.1" // --> 1.7.0-alpha03
+ //  url : https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/maven-metadata.xml
+     implementation "androidx.arch.core:core-common:2.1.0" // --> 2.2.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/maven-metadata.xml
+     implementation "androidx.arch.core:core-runtime:2.1.0" // --> 2.2.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/maven-metadata.xml
+     implementation "androidx.asynclayoutinflater:asynclayoutinflater:1.0.0" // --> 1.1.0-alpha01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/asynclayoutinflater/asynclayoutinflater/maven-metadata.xml
+     implementation "androidx.collection:collection:1.1.0" // --> 1.4.0-beta01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/collection/collection/maven-metadata.xml
+     implementation "androidx.constraintlayout:constraintlayout:2.1.4" // --> 2.2.0-alpha13
+ //  url : https://dl.google.com/dl/android/maven2/androidx/constraintlayout/constraintlayout/maven-metadata.xml
+     implementation "androidx.coordinatorlayout:coordinatorlayout:1.1.0" // --> 1.3.0-alpha02
+ //  url : https://dl.google.com/dl/android/maven2/androidx/coordinatorlayout/coordinatorlayout/maven-metadata.xml
+     implementation "androidx.core:core:1.9.0" // --> 1.13.0-alpha01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/core/core/maven-metadata.xml
+     implementation "androidx.core:core-ktx:1.9.0" // --> 1.13.0-alpha01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/maven-metadata.xml
+     implementation "androidx.customview:customview:1.0.0" // --> 1.2.0-alpha02
+ //  url : https://dl.google.com/dl/android/maven2/androidx/customview/customview/maven-metadata.xml
+     implementation "androidx.databinding:databinding-adapters:7.4.2" // --> 8.3.0-alpha13
+ //  url : https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-adapters/maven-metadata.xml
+     implementation "androidx.databinding:databinding-common:7.4.2" // --> 8.3.0-alpha13
+ //  url : https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-common/maven-metadata.xml
+     implementation "androidx.databinding:databinding-ktx:7.4.2" // --> 8.3.0-alpha13
+ //  url : https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-ktx/maven-metadata.xml
+     implementation "androidx.databinding:databinding-runtime:7.4.2" // --> 8.3.0-alpha13
+ //  url : https://dl.google.com/dl/android/maven2/androidx/databinding/databinding-runtime/maven-metadata.xml
+     implementation "androidx.databinding:viewbinding:7.4.2" // --> 8.3.0-alpha13
+ //  url : https://dl.google.com/dl/android/maven2/androidx/databinding/viewbinding/maven-metadata.xml
+     implementation "androidx.documentfile:documentfile:1.0.0" // --> 1.1.0-alpha01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/documentfile/documentfile/maven-metadata.xml
+     implementation "androidx.drawerlayout:drawerlayout:1.0.0" // --> 1.2.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/drawerlayout/drawerlayout/maven-metadata.xml
+     implementation "androidx.dynamicanimation:dynamicanimation:1.0.0" // --> 1.1.0-alpha03
+ //  url : https://dl.google.com/dl/android/maven2/androidx/dynamicanimation/dynamicanimation/maven-metadata.xml
+     implementation "androidx.fragment:fragment:1.3.6" // --> 1.7.0-alpha06
+ //  url : https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/maven-metadata.xml
+     implementation "androidx.lifecycle:lifecycle-common:2.5.1" // --> 2.7.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/maven-metadata.xml
+     implementation "androidx.lifecycle:lifecycle-livedata:2.4.0" // --> 2.7.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata/maven-metadata.xml
+     implementation "androidx.lifecycle:lifecycle-livedata-core:2.5.1" // --> 2.7.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata-core/maven-metadata.xml
+     implementation "androidx.lifecycle:lifecycle-process:2.4.1" // --> 2.7.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-process/maven-metadata.xml
+     implementation "androidx.lifecycle:lifecycle-runtime:2.5.1" // --> 2.7.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/maven-metadata.xml
+     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.4.0" // --> 2.7.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime-ktx/maven-metadata.xml
+     implementation "androidx.lifecycle:lifecycle-service:2.4.0" // --> 2.7.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-service/maven-metadata.xml
+     implementation "androidx.lifecycle:lifecycle-viewmodel:2.5.1" // --> 2.7.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/maven-metadata.xml
+     implementation "androidx.lifecycle:lifecycle-viewmodel-savedstate:2.5.1" // --> 2.7.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate/maven-metadata.xml
+     implementation "androidx.loader:loader:1.0.0" // --> 1.1.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/loader/loader/maven-metadata.xml
+     implementation "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0" // --> 1.1.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/localbroadcastmanager/localbroadcastmanager/maven-metadata.xml
+     implementation "androidx.media3:media3-common:1.1.1" // --> 1.2.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media3/media3-common/maven-metadata.xml
+     implementation "androidx.media3:media3-container:1.1.1" // --> 1.2.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media3/media3-container/maven-metadata.xml
+     implementation "androidx.media3:media3-database:1.1.1" // --> 1.2.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media3/media3-database/maven-metadata.xml
+     implementation "androidx.media3:media3-datasource:1.1.1" // --> 1.2.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media3/media3-datasource/maven-metadata.xml
+     implementation "androidx.media3:media3-datasource-rtmp:1.1.1" // --> 1.2.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media3/media3-datasource-rtmp/maven-metadata.xml
+     implementation "androidx.media3:media3-decoder:1.1.1" // --> 1.2.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media3/media3-decoder/maven-metadata.xml
+     implementation "androidx.media3:media3-exoplayer:1.1.1" // --> 1.2.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media3/media3-exoplayer/maven-metadata.xml
+     implementation "androidx.media3:media3-exoplayer-dash:1.1.1" // --> 1.2.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media3/media3-exoplayer-dash/maven-metadata.xml
+     implementation "androidx.media3:media3-exoplayer-hls:1.1.1" // --> 1.2.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media3/media3-exoplayer-hls/maven-metadata.xml
+     implementation "androidx.media3:media3-exoplayer-rtsp:1.1.1" // --> 1.2.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media3/media3-exoplayer-rtsp/maven-metadata.xml
+     implementation "androidx.media3:media3-extractor:1.1.1" // --> 1.2.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media3/media3-extractor/maven-metadata.xml
+     implementation "androidx.media:media:1.0.0" // --> 1.7.0-rc01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/media/media/maven-metadata.xml
+     implementation "androidx.print:print:1.0.0" // --> 1.1.0-beta01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/print/print/maven-metadata.xml
+     implementation "androidx.recyclerview:recyclerview:1.3.2" // --> 1.4.0-alpha01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/recyclerview/recyclerview/maven-metadata.xml
+     implementation "androidx.room:room-common:2.5.1" // --> 2.6.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/room/room-common/maven-metadata.xml
+     implementation "androidx.room:room-runtime:2.5.1" // --> 2.6.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/room/room-runtime/maven-metadata.xml
+     implementation "androidx.savedstate:savedstate:1.2.0" // --> 1.2.1
+ //  url : https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/maven-metadata.xml
+     implementation "androidx.slidingpanelayout:slidingpanelayout:1.0.0" // --> 1.2.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/slidingpanelayout/slidingpanelayout/maven-metadata.xml
+     implementation "androidx.sqlite:sqlite:2.3.1" // --> 2.4.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/sqlite/sqlite/maven-metadata.xml
+     implementation "androidx.sqlite:sqlite-framework:2.3.1" // --> 2.4.0
+ //  url : https://dl.google.com/dl/android/maven2/androidx/sqlite/sqlite-framework/maven-metadata.xml
+     implementation "androidx.startup:startup-runtime:1.1.1" // --> 1.2.0-alpha02
+ //  url : https://dl.google.com/dl/android/maven2/androidx/startup/startup-runtime/maven-metadata.xml
+     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0" // --> 1.2.0-alpha01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/swiperefreshlayout/swiperefreshlayout/maven-metadata.xml
+     implementation "androidx.tracing:tracing:1.0.0" // --> 1.3.0-alpha02
+ //  url : https://dl.google.com/dl/android/maven2/androidx/tracing/tracing/maven-metadata.xml
+     implementation "androidx.transition:transition:1.2.0" // --> 1.5.0-alpha04
+ //  url : https://dl.google.com/dl/android/maven2/androidx/transition/transition/maven-metadata.xml
+     implementation "androidx.vectordrawable:vectordrawable:1.1.0" // --> 1.2.0-beta01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable/maven-metadata.xml
+     implementation "androidx.versionedparcelable:versionedparcelable:1.1.1" // --> 1.2.0-alpha01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/maven-metadata.xml
+     implementation "androidx.viewpager:viewpager:1.0.0" // --> 1.1.0-alpha01
+ //  url : https://dl.google.com/dl/android/maven2/androidx/viewpager/viewpager/maven-metadata.xml
+     implementation "com.alibaba.android:vlayout:1.2.37" // --> 1.3.0
+ //  url : https://repo.maven.apache.org/maven2/com/alibaba/android/vlayout/maven-metadata.xml
+     implementation "com.alivc.conan:AlivcConan:0.9.5" // --> 1.0.5
+ //  url : https://maven.aliyun.com/repository/releases/com/alivc/conan/AlivcConan/maven-metadata.xml
+     implementation "com.aliyun.sdk.android:AliyunPlayer:5.5.1.0-full" // --> 6.5.0-full-33006494
+ //  url : https://maven.aliyun.com/repository/releases/com/aliyun/sdk/android/AliyunPlayer/maven-metadata.xml
+     implementation "com.blankj:utilcodex:1.31.0" // --> 1.31.1
+ //  url : https://repo.maven.apache.org/maven2/com/blankj/utilcodex/maven-metadata.xml
+     implementation "com.facebook.conceal:conceal:1.1.3" // --> 2.0.2
+ //  url : https://repo.maven.apache.org/maven2/com/facebook/conceal/conceal/maven-metadata.xml
+     implementation "com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.49-androidx" // --> 3.08
+ //  url : https://jitpack.io/com/github/CymChad/BaseRecyclerViewAdapterHelper/maven-metadata.xml
+     implementation "com.github.bumptech.glide:annotations:4.16.0" // --> 5.0.0-rc01
+ //  url : https://repo.maven.apache.org/maven2/com/github/bumptech/glide/annotations/maven-metadata.xml
+     implementation "com.github.bumptech.glide:disklrucache:4.16.0" // --> 5.0.0-rc01
+ //  url : https://repo.maven.apache.org/maven2/com/github/bumptech/glide/disklrucache/maven-metadata.xml
+     implementation "com.github.bumptech.glide:gifdecoder:4.16.0" // --> 5.0.0-rc01
+ //  url : https://repo.maven.apache.org/maven2/com/github/bumptech/glide/gifdecoder/maven-metadata.xml
+     implementation "com.github.bumptech.glide:glide:4.16.0" // --> 5.0.0-rc01
+ //  url : https://repo.maven.apache.org/maven2/com/github/bumptech/glide/glide/maven-metadata.xml
+     implementation "com.github.hedzr:android-file-chooser:v1.2.0-final" // --> v1.2.0
+ //  url : https://jitpack.io/com/github/hedzr/android-file-chooser/maven-metadata.xml
+     implementation "com.github.thegrizzlylabs:sardine-android:0.8" // --> v0.8
+ //  url : https://jitpack.io/com/github/thegrizzlylabs/sardine-android/maven-metadata.xml
+     implementation "com.google.android.material:material:1.4.0" // --> 1.12.0-alpha01
+ //  url : https://dl.google.com/dl/android/maven2/com/google/android/material/material/maven-metadata.xml
+     implementation "com.google.guava:failureaccess:1.0.1" // --> 1.0.2
+ //  url : https://repo.maven.apache.org/maven2/com/google/guava/failureaccess/maven-metadata.xml
+     implementation "com.google.guava:guava:31.1-android" // --> 32.1.3-jre
+ //  url : https://repo.maven.apache.org/maven2/com/google/guava/guava/maven-metadata.xml
+     implementation "com.google.zxing:core:3.5.1" // --> 3.5.2
+ //  url : https://repo.maven.apache.org/maven2/com/google/zxing/core/maven-metadata.xml
+     implementation "com.squareup.okhttp3:okhttp:3.12.11" // --> 5.0.0-alpha.11
+ //  url : https://repo.maven.apache.org/maven2/com/squareup/okhttp3/okhttp/maven-metadata.xml
+     implementation "com.squareup.okio:okio:3.3.0" // --> 3.6.0
+ //  url : https://repo.maven.apache.org/maven2/com/squareup/okio/okio/maven-metadata.xml
+     implementation "com.squareup.okio:okio-jvm:3.3.0" // --> 3.6.0
+ //  url : https://repo.maven.apache.org/maven2/com/squareup/okio/okio-jvm/maven-metadata.xml
+     implementation "commons-io:commons-io:2.11.0" // --> 2.15.0
+ //  url : https://repo.maven.apache.org/maven2/commons-io/commons-io/maven-metadata.xml
+     implementation "org.apache.commons:commons-lang3:3.12.0" // --> 3.13.0
+ //  url : https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/maven-metadata.xml
+     implementation "org.apache.commons:commons-text:1.10.0" // --> 1.11.0
+ //  url : https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/maven-metadata.xml
+     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.0" // --> 2.0.0-Beta1
+ //  url : https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/maven-metadata.xml
+     implementation "org.jetbrains.kotlin:kotlin-stdlib-common:1.9.0" // --> 2.0.0-Beta1
+ //  url : https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/maven-metadata.xml
+     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.9.0" // --> 2.0.0-Beta1
+ //  url : https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk7/maven-metadata.xml
+     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.9.0" // --> 2.0.0-Beta1
+ //  url : https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-jdk8/maven-metadata.xml
+     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.1" // --> 1.7.3
+ //  url : https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-android/maven-metadata.xml
+     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-bom:1.6.1" // --> 1.7.3
+ //  url : https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-bom/maven-metadata.xml
+     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.1" // --> 1.7.3
+ //  url : https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/maven-metadata.xml
+     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.6.1" // --> 1.7.3
+ //  url : https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/maven-metadata.xml
+     implementation "org.jetbrains:annotations:13.0" // --> 24.1.0
+ //  url : https://repo.maven.apache.org/maven2/org/jetbrains/annotations/maven-metadata.xml
+     implementation "org.jsoup:jsoup:1.16.1" // --> 1.16.2
+ //  url : https://repo.maven.apache.org/maven2/org/jsoup/jsoup/maven-metadata.xml
+}

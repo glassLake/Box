@@ -2,6 +2,7 @@ package com.github.catvod.crawler;
 
 import android.content.Context;
 
+import com.blankj.utilcode.util.LogUtils;
 import com.github.tvbox.osc.base.App;
 import com.github.tvbox.osc.util.MD5;
 import com.lzy.okgo.OkGo;
@@ -68,7 +69,7 @@ public class JarLoader {
                     }
                     Thread.sleep(200);
                 } catch (Throwable th) {
-                    th.printStackTrace();
+                    LogUtils.w(th);
                 }
                 count++;
             } while (count < 5);
@@ -77,7 +78,7 @@ public class JarLoader {
                 classLoaders.put(key, classLoader);
             }
         } catch (Throwable th) {
-            th.printStackTrace();
+            LogUtils.w(th);
         }
         return success;
     }
@@ -113,7 +114,7 @@ public class JarLoader {
             loadClassLoader(cache.getAbsolutePath(), key);
             return classLoaders.get(key);
         } catch (Throwable e) {
-            e.printStackTrace();
+            LogUtils.w(jar,e);
         }
         return null;
     }

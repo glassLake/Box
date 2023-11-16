@@ -1,6 +1,8 @@
 package com.github.tvbox.osc.base;
 
 import androidx.multidex.MultiDexApplication;
+
+import com.blankj.utilcode.util.LogUtils;
 import com.github.catvod.crawler.JsLoader;
 import com.github.tvbox.osc.callback.EmptyCallback;
 import com.github.tvbox.osc.callback.LoadingCallback;
@@ -36,6 +38,7 @@ public class App extends MultiDexApplication {
     public void onCreate() {
         super.onCreate();
         instance = this;
+        LogUtils.getConfig().setLogSwitch(true);
         initParams();
         // takagen99 : Initialize Locale
         initLocale();

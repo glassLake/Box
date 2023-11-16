@@ -32,6 +32,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.DiffUtil;
 import androidx.viewpager.widget.ViewPager;
 
+import com.blankj.utilcode.util.LogUtils;
 import com.github.tvbox.osc.R;
 import com.github.tvbox.osc.api.ApiConfig;
 import com.github.tvbox.osc.base.BaseActivity;
@@ -416,6 +417,7 @@ public class HomeActivity extends BaseActivity {
 
                     @Override
                     public void error(String msg) {
+                        LogUtils.w(msg);
                         jarInitOk = true;
                         mHandler.post(new Runnable() {
                             @Override

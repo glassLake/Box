@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import androidx.lifecycle.ViewModelProvider;
 
+import com.blankj.utilcode.util.LogUtils;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.github.catvod.crawler.JsLoader;
 import com.github.tvbox.osc.R;
@@ -193,7 +194,8 @@ public class SearchActivity extends BaseActivity {
                             JsLoader.stopAll();
                         }
                     } catch (Throwable th) {
-                        th.printStackTrace();
+                        LogUtils.w(video.urlBean,th);
+                        //th.printStackTrace();
                     }
                     Bundle bundle = new Bundle();
                     bundle.putString("id", video.id);
@@ -307,7 +309,7 @@ public class SearchActivity extends BaseActivity {
                             }
                             wordAdapter.setNewData(hots);
                         } catch (Throwable th) {
-                            th.printStackTrace();
+                            LogUtils.w(key,th);
                         }
                     }
 

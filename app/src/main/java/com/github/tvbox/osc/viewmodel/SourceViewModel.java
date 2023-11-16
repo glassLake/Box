@@ -6,6 +6,7 @@ import android.util.Base64;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import com.blankj.utilcode.util.LogUtils;
 import com.github.catvod.crawler.Spider;
 import com.github.tvbox.osc.api.ApiConfig;
 import com.github.tvbox.osc.base.App;
@@ -672,9 +673,10 @@ public class SourceViewModel extends ViewModel {
             spThreadPool.execute(new Runnable() {
                 @Override
                 public void run() {
-                    Spider sp = ApiConfig.get().getCSP(sourceBean);                    
+                    Spider sp = ApiConfig.get().getCSP(sourceBean);
+                    String json = "";
                     try {
-			String json = sp.playerContent(playFlag, url, ApiConfig.get().getVipParseFlags());    
+			 json = sp.playerContent(playFlag, url, ApiConfig.get().getVipParseFlags());
                         JSONObject result = new JSONObject(json);
                         result.put("key", url);
                         result.put("proKey", progressKey);
@@ -683,7 +685,7 @@ public class SourceViewModel extends ViewModel {
                             result.put("flag", playFlag);
                         playResult.postValue(result);
                     } catch (Throwable th) {
-                        th.printStackTrace();
+                        LogUtils.w(json,th);
                         playResult.postValue(null);
                     }
                 }
@@ -706,7 +708,7 @@ public class SourceViewModel extends ViewModel {
                 result.put("flag", playFlag);
                 playResult.postValue(result);
             } catch (Throwable th) {
-                th.printStackTrace();
+                LogUtils.w(result,th);
                 playResult.postValue(null);
             }
         } else if (type == 4) {

@@ -1,0 +1,46 @@
+buildscript{
+
+     repositories {
+        maven {
+             url  'https://plugins.gradle.org/m2'
+        }
+        maven {//google()
+             url  'https://dl.google.com/dl/android/maven2/'
+        }
+        maven {//mavenCentral()
+             url  'https://repo.maven.apache.org/maven2/'
+        }
+        maven {
+             url  'https://jitpack.io'
+        }
+        maven {
+             url  'https://download.01.org/crosswalk/releases/crosswalk/android/maven2'
+        }
+        maven {
+             url  'https://maven.aliyun.com/repository/releases'
+        }
+}
+
+//list all plugin classPath:
+dependencies {
+     classpath "com.android.tools.build:gradle:7.4.2"
+     classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0"
+  }
+}
+
+
+//当前工程应用的插件信息:
+// [class:class org.gradle.api.plugins.HelpTasksPlugin]
+// [class:class org.gradle.buildinit.plugins.BuildInitPlugin]
+// [class:class org.gradle.buildinit.plugins.WrapperPlugin]
+// [class:class com.android.build.gradle.internal.plugins.VersionCheckPlugin]
+// [class:class org.gradle.language.base.plugins.LifecycleBasePlugin]
+// [class:class org.gradle.api.plugins.BasePlugin]
+// [class:class org.gradle.api.plugins.JvmEcosystemPlugin]
+// [class:class org.gradle.api.plugins.ReportingBasePlugin]
+// [class:class org.gradle.api.plugins.JavaBasePlugin$Inject, javaToolchainQueryService:org.gradle.jvm.toolchain.internal.JavaToolchainQueryService@6d4a8617, taskThatOwnsThisObject:null, modelIdentityDisplayName:null]
+// [class:class com.android.build.gradle.api.AndroidBasePlugin]
+// [extension:extension 'android', projectServices:com.android.build.gradle.internal.services.ProjectServices@77070bc3, projectType:0, versionedSdkLoaderService:com.android.build.gradle.internal.services.VersionedSdkLoaderService@73a4f2fd, componentFactory:org.gradle.api.plugins.internal.DefaultSoftwareComponentFactory@21a77499, class:class com.android.build.gradle.internal.plugins.AppPlugin, dslServices:com.android.build.gradle.internal.services.DslServicesImpl@52d93473, syncIssueReporter:com.android.build.gradle.internal.errors.SyncIssueReporterImpl@6b1a6a01, packagePublished:false, analyticsPluginType:APPLICATION, configuratorService:com.android.build.gradle.internal.profile.AnalyticsConfiguratorService$Inject@248c2db2, projectTypeV2:APPLICATION, extraModelInfo:com.android.build.gradle.internal.ExtraModelInfo@70eb10c4, variantInputModel:com.android.build.gradle.internal.variant.LegacyVariantInputManager@6b8ad806, variantManager:com.android.build.gradle.internal.VariantManager@5378ed14, registry:org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry@165cbb74]
+// [extension:extension 'android', class:class com.android.build.gradle.AppPlugin]
+// [class:class org.jetbrains.kotlin.gradle.plugin.KotlinAndroidPluginWrapper, pluginVersion:1.9.0, pluginVariant:gradle75, registry:org.gradle.tooling.provider.model.internal.DefaultToolingModelBuilderRegistry@165cbb74, projectExtensionClass:class org.jetbrains.kotlin.gradle.dsl.KotlinAndroidProjectExtension]
+// [class:class com.dorongold.gradle.tasktree.TaskTreePlugin]
